@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +36,7 @@
         margin-top: 0;
         margin-bottom: 0;
         line-height: 36pt;
-        word-wrap: break-word;
+        word-break: break-all;
       }
       
       li {
@@ -52,50 +52,50 @@
       .green:link {
         color: #64bc2a;
         background-color: none; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
       .green:hover {
         color: #64bc2a;
         background-color: yellow; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
       .green:visited {
         color: #64bc2a;
         background-color: none; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
       .green:active {
         color: #ff0000;
         background-color: yellow; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
 /** social links (blue) **/
       .blue:link {
         color: #0081ff;
         background-color: none; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
       .blue:hover {
         color: #0081ff;
         background-color: yellow; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
       .blue:visited {
         color: #0081ff;
         background-color: none; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
       .blue:active {
         color: #ff0000;
         background-color: yellow; 
-        text-decoration: underline;
+        text-decoration: none;
       }
       
       .logo {
@@ -161,6 +161,11 @@
       #redstamp {
         transform: rotate(107deg);
       }
+
+      #fav {
+        margin-left: 4pt;
+        margin-bottom: -1pt;
+      }
     </style>
   </head>
   
@@ -171,7 +176,7 @@
     </div>
     
     <div class="content">
-    <p><a href="https://garrit.net/"><img class="logo" src="/frontlogo_602px.png" width="150" height="68" style="vertical-align: bottom;" alt="garrit.net logo"></a>My name is garrit lichtenberg and I am a graphic designer<img src="/favicon-16x16.png"></p>
+    <p><a href="https://garrit.net/"><img class="logo" src="/frontlogo_602px.png" width="150" height="68" style="vertical-align: bottom;" alt="garrit.net logo"></a>My name is garrit lichtenberg and I am a graphic designer<img id="fav" src="/favicon-16x16.png"></p>
     
     <p><a href="mailto:mail@garrit.net" class="email">mail@garrit.net</a></p>
     
