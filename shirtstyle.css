@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'gothic_cg_no1';
+    src: url('font/gothic_cg_no1.woff2') format('woff2'),
+         url('font/gothic_cg_no1.woff') format('woff'),
+         url('font/gothic_cg_no1.ttf') format('truetype'),
+         url('font/gothic_cg_no1.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gothic_cg_no4';
+    src: url('font/gothic_cg_no4.woff2') format('woff2'),
+         url('font/gothic_cg_no4.woff') format('woff'),
+         url('font/gothic_cg_no4.ttf') format('truetype'),
+         url('font/gothic_cg_no4.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: gothic_cg_no4, serif;
+    font-size: 36pt;
+    line-height: 36pt;
+    word-break: break-all;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-family: itc-american-typewriter, serif;
+    font-size: 36pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36pt;
+    word-break: break-all;
+    font-weight:300
+  }
+  
+  h3 {
+    font-family: itc-american-typewriter, serif;
+  }
+  
+  p {
+    font-family: gothic_cg_no1, serif;
+    font-size: 36pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36pt;
+    word-break: break-all;
+    font-variant-alternates: stylistic(ss01);
+  }
+
+  p.price {
+    font-family: itc-american-typewriter-cond, serif;
+    font-size: 36pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36pt;
+    word-break: break-all;
+    font-weight: 300;
+    color: #64bc2a;
+  }
+  
+  li {
+    font-family: itc-american-typewriter, serif;
+  }
+  
+  ul {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+/** local links (green) **/
+  .green:link {
+    color: #64bc2a;
+    background-color: none; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+  .green:hover {
+    color: #64bc2a;
+    background-color: yellow; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+  .green:visited {
+    color: #64bc2a;
+    background-color: none; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+  .green:active {
+    color: #ff0000;
+    background-color: yellow; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+/** social links (blue) **/
+  .blue:link {
+    color: #0081ff;
+    background-color: none; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+  .blue:hover {
+    color: #0081ff;
+    background-color: yellow; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+  .blue:visited {
+    color: #0081ff;
+    background-color: none; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+  .blue:active {
+    color: #ff0000;
+    background-color: yellow; 
+    text-decoration: none;
+    border-radius: 5pt;
+  }
+  
+  .logo {
+    margin-left: -5px;
+    margin-right: 3px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+  
+/** email link **/
+  .email:link {
+    color: black;
+    background-color: none; 
+    text-decoration: none;
+  }
+  
+  .email:hover {
+    color: black;
+    background-color: none; 
+    text-decoration: none;
+  }
+  
+  .email:visited {
+    color: black;
+    background-color: none; 
+    text-decoration: none;
+  }
+  
+  .email:active {
+    color: black;
+    background-color: none; 
+    text-decoration: none;
+  }
+  
+  .content {
+    position: static;
+  }
+  
