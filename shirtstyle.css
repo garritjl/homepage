@@ -1,3 +1,7 @@
+* {
+  font-synthesis: none !important;
+}
+
 @font-face {
     font-family: 'gothic_cg_no1';
     src: url('font/gothic_cg_no1.woff2') format('woff2'),
@@ -18,19 +22,42 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'newmusicmachine';
+  src: url('font/newmusicmachine.eot');
+  src: url('font/newmusicmachine.eot?#iefix') format('embedded-opentype'),
+       url('font/newmusicmachine.woff2') format('woff2'),
+       url('font/newmusicmachine.woff') format('woff'),
+       url('font/newmusicmachine.ttf') format('truetype'),
+       url('font/newmusicmachine.svg#newmusicmachine') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'sm64';
+  src: url('font/sm64.eot');
+  src: url('font/sm64.eot?#iefix') format('embedded-opentype'),
+       url('font/sm64.woff2') format('woff2'),
+       url('font/sm64.woff') format('woff'),
+       url('font/sm64.ttf') format('truetype'),
+       url('font/sm64.svg#newmusicmachine') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 h1 {
-    font-family: gothic_cg_no4, serif;
-    font-size: 36pt;
-    line-height: 36pt;
-    word-break: break-all;
+    font-family: newmusicmachine, sans-serif;
+    font-size: 46pt;
+    line-height: 46pt;
+    word-break: break-word;
     margin-top: 0;
     margin-bottom: 0;
   }
   
   h2 {
     font-family: itc-american-typewriter, serif;
-    font-size: 36pt;
+    font-size: 6pt;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 36pt;
@@ -43,21 +70,21 @@ h1 {
   }
   
   p {
-    font-family: gothic_cg_no1, serif;
+    font-family: sm64, sans-serif;
     font-size: 36pt;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 36pt;
     word-break: break-all;
-    font-variant-alternates: stylistic(ss01);
   }
 
   p.price {
-    font-family: itc-american-typewriter-cond, serif;
-    font-size: 36pt;
+    font-family: newmusicmachine, sans-serif;
+    font-size: 46pt;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 36pt;
+    line-height: 46pt;
     word-break: break-all;
     font-weight: 300;
     color: #64bc2a;
@@ -71,6 +98,14 @@ h1 {
     margin-top: 0;
     margin-bottom: 0;
   }
+
+ button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 10pt;
+ }
   
 /** local links (green) **/
   .green:link {
@@ -165,4 +200,42 @@ h1 {
   .content {
     position: static;
   }
+
+  #logotop {
+    margin: auto;
+    display: block;
+    width: 700px;
+  }
+
+  #backbut {
+    margin-top: -20px;
+    margin-bottom: -20px;
+    margin-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .snipcart-add-item {
+    color: blue;
+    background-color: none; 
+    text-decoration: none;
+    font-family: sm64, sans-serif;
+    font-size: 36pt;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 36pt;
+    word-break: break-all;
+  }
   
+  .snipcart-add-item:hover {
+    color: rgb(255, 0, 0);
+    background-color: none; 
+    text-decoration: none;
+  }
+  
+  .snipcart-add-item:active {
+    color: rgb(255, 0, 0);
+    background-color: none; 
+    text-decoration: none;
+  }
