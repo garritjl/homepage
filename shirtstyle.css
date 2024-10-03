@@ -46,6 +46,10 @@
   font-style: normal;
 }
 
+body {
+  margin-left: 3px;
+}
+
 h1 {
     font-family: newmusicmachine, sans-serif;
     font-size: 46pt;
@@ -71,12 +75,23 @@ h1 {
   
   p {
     font-family: sm64, sans-serif;
-    font-size: 36pt;
+    font-size: 40pt;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 36pt;
-    word-break: break-all;
+    line-height: 40pt;
+    word-break: break-word;
+  }
+
+  p.body {
+    font-family: "franklin-gothic-urw", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 16pt;
+    word-break: break-word;
   }
 
   p.price {
@@ -138,21 +153,21 @@ h1 {
   
 /** social links (blue) **/
   .blue:link {
-    color: #0081ff;
+    color: #0015ff;
     background-color: none; 
     text-decoration: none;
     border-radius: 5pt;
   }
   
   .blue:hover {
-    color: #0081ff;
-    background-color: yellow; 
+    color: #EA7218;
+    background-color: none; 
     text-decoration: none;
     border-radius: 5pt;
   }
   
   .blue:visited {
-    color: #0081ff;
+    color: #0015ff;
     background-color: none; 
     text-decoration: none;
     border-radius: 5pt;
@@ -160,16 +175,9 @@ h1 {
   
   .blue:active {
     color: #ff0000;
-    background-color: yellow; 
+    background-color: none; 
     text-decoration: none;
     border-radius: 5pt;
-  }
-  
-  .logo {
-    margin-left: -5px;
-    margin-right: 3px;
-    margin-top: -5px;
-    margin-bottom: -5px;
   }
   
 /** email link **/
@@ -204,19 +212,48 @@ h1 {
   #logotop {
     margin: auto;
     display: block;
-    width: 700px;
+    width: 600px;
+    max-width: 98vw;
   }
 
   #backbut {
     margin-top: -20px;
-    margin-bottom: -20px;
+    margin-bottom: -14px;
     margin-right: 5px;
     padding-top: 0px;
     padding-bottom: 0px;
+    position: static;
+    z-index: 1000;
   }
 
-  .snipcart-add-item {
-    color: blue;
+  #bagbuttons {
+    color: #0015ff;
+    background-color: none; 
+    text-decoration: none;
+    font-family: sm64, sans-serif;
+    font-size: 40pt;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40pt;
+    word-break: break-all;
+    cursor: pointer;
+  }
+  
+  #bagbuttons:hover {
+    color: #EA7218;
+    background-color: none; 
+    text-decoration: none;
+  }
+  
+  #bagbuttons:active {
+    color: rgb(255, 0, 0);
+    background-color: none; 
+    text-decoration: none;
+  }
+
+  #bagslash {
+    color: black;
     background-color: none; 
     text-decoration: none;
     font-family: sm64, sans-serif;
@@ -227,15 +264,9 @@ h1 {
     line-height: 36pt;
     word-break: break-all;
   }
-  
-  .snipcart-add-item:hover {
-    color: rgb(255, 0, 0);
-    background-color: none; 
-    text-decoration: none;
-  }
-  
-  .snipcart-add-item:active {
-    color: rgb(255, 0, 0);
-    background-color: none; 
-    text-decoration: none;
+
+  #version {
+    color: rgb(176, 176, 176);
+    position: absolute;
+    z-index: -1000;
   }
