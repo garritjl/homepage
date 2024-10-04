@@ -207,6 +207,7 @@ h1 {
   
   .content {
     position: static;
+    max-width: 98vw;
   }
 
   #logotop {
