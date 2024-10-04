@@ -270,7 +270,10 @@ width: 600px;
 height: 185px;
 max-width: 98vw;
 display: block;
-margin-bottom: 46pt;
+  }
+
+  div #body{
+    margin-top: 46pt;
   }
   
   #bagbuttons:hover {
