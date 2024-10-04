@@ -54,6 +54,7 @@ body {
 h1 {
     font-family: newmusicmachine, sans-serif;
     font-size: 46pt;
+    color: #1c1c1d;
     line-height: 46pt;
     word-break: break-word;
     margin-top: 0;
@@ -251,7 +252,7 @@ h1 {
   }
 
   #est {
-    color: #a04bf5;
+    color: #a2b3a7;
     background-color: none; 
     text-decoration: none;
     font-family: sm64, sans-serif;
@@ -262,6 +263,13 @@ h1 {
     line-height: 40pt;
     word-break: break-all;
     cursor: not-allowed;
+  }
+
+  #estbox {
+width: 600px;
+height: 185px;
+max-width: 98vw;
+display: block;
   }
   
   #bagbuttons:hover {
