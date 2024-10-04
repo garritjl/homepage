@@ -214,7 +214,9 @@ h1 {
     display: block;
     width: 600px;
     max-width: 98vw;
-    padding-bottom: 3px;
+    padding-bottom: 10px;
+    position: fixed;
+    cursor: not-allowed;
   }
 
   #productpics {
@@ -243,6 +245,20 @@ h1 {
     line-height: 40pt;
     word-break: break-all;
     cursor: pointer;
+  }
+
+  #est {
+    color: #a04bf5;
+    background-color: none; 
+    text-decoration: none;
+    font-family: sm64, sans-serif;
+    font-size: 40pt;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40pt;
+    word-break: break-all;
+    cursor: not-allowed;
   }
   
   #bagbuttons:hover {
