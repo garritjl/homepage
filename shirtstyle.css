@@ -225,6 +225,10 @@ h1 {
   #productpics {
     max-width: 98vw;
     display: block;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   #backbut {

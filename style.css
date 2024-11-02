@@ -187,6 +187,15 @@ h1 {
     margin-bottom: -1pt;
     border-radius: 2pt;
   }
+  
+  #fs {
+    width: 48px;
+    height: 56px;;
+    margin-left: 0pt;
+    margin-right: 5pt;
+    margin-bottom: -1.7pt;
+    border-radius: 2pt;
+  }
 
   #version {
     color: lightgrey;
