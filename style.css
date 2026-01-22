@@ -201,3 +201,13 @@ h1 {
     color: lightgrey;
     font-weight: 300;
   }
+
+  #featuredworks {
+display: block;
+    max-width: 100vw;
+  }
+
+  img.feature {
+    max-width: 500px;
+    max-height: 99vh;
+  }

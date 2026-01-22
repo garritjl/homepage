@@ -253,6 +253,7 @@ h1 {
     line-height: 40pt;
     word-break: break-all;
     cursor: pointer;
+    text-decoration: line-through;
   }
 
   #est {
