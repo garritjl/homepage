@@ -204,11 +204,12 @@ h1 {
 
   #featuredworks {
 object-fit: contain;
+width: 100vw;
     max-width: 100%;
   }
 
   img.feature {
-    object-fit: contain;
-    max-width: 500px;
-    max-height: 99vh;
+    max-width: 99%;
+  max-height: 98vh;
+  object-fit: contain;
   }
